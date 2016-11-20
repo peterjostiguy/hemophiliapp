@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106A672A081745C3AFAE0B33 /* Pods_bleedAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64293A0FE7B1AB8CD62DC521 /* Pods_bleedAppTests.framework */; };
 		449CB0621DE0F9F100B55044 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0611DE0F9F100B55044 /* AppDelegate.swift */; };
 		449CB0641DE0F9F100B55044 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0631DE0F9F100B55044 /* ViewController.swift */; };
 		449CB0671DE0F9F100B55044 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449CB0651DE0F9F100B55044 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		449CB06C1DE0F9F100B55044 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449CB06A1DE0F9F100B55044 /* LaunchScreen.storyboard */; };
 		449CB0771DE0F9F200B55044 /* bleedAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0761DE0F9F200B55044 /* bleedAppTests.swift */; };
 		449CB0821DE0F9F200B55044 /* bleedAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0811DE0F9F200B55044 /* bleedAppUITests.swift */; };
+		449CB0971DE1165C00B55044 /* googleAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0961DE1165C00B55044 /* googleAuth.m */; };
+		449CB0981DE1165C00B55044 /* googleAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0961DE1165C00B55044 /* googleAuth.m */; };
+		449CB0991DE1165C00B55044 /* googleAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0961DE1165C00B55044 /* googleAuth.m */; };
+		449CB0A11DE122A300B55044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449CB0A01DE122A300B55044 /* GoogleService-Info.plist */; };
+		449CB0A21DE122A300B55044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449CB0A01DE122A300B55044 /* GoogleService-Info.plist */; };
+		449CB0A31DE122A300B55044 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449CB0A01DE122A300B55044 /* GoogleService-Info.plist */; };
+		449CB0A51DE14B1700B55044 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449CB0A41DE14B1700B55044 /* SecondScreen.swift */; };
+		4FD6C1C8D8787E47517704FC /* Pods_bleedApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF2F0A3D9D138D9CAD05D94B /* Pods_bleedApp.framework */; };
+		687301E3BAAC5156DBAF8555 /* Pods_bleedAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA34A2324331C1177FB905E /* Pods_bleedAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13FD078531837500E8C3CED6 /* Pods-bleedAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bleedAppTests/Pods-bleedAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		1B23DD9523FC69CCA5D9EAB1 /* Pods-bleedApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-bleedApp/Pods-bleedApp.release.xcconfig"; sourceTree = "<group>"; };
 		449CB05E1DE0F9F100B55044 /* bleedApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bleedApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		449CB0611DE0F9F100B55044 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		449CB0631DE0F9F100B55044 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,19 @@
 		449CB07D1DE0F9F200B55044 /* bleedAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bleedAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		449CB0811DE0F9F200B55044 /* bleedAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bleedAppUITests.swift; sourceTree = "<group>"; };
 		449CB0831DE0F9F200B55044 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449CB0931DE1165B00B55044 /* bleedApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bleedApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		449CB0941DE1165B00B55044 /* bleedAppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bleedAppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		449CB0951DE1165B00B55044 /* bleedAppUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bleedAppUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		449CB0961DE1165C00B55044 /* googleAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = googleAuth.m; sourceTree = "<group>"; };
+		449CB0A01DE122A300B55044 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		449CB0A41DE14B1700B55044 /* SecondScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		5A858CB26403899336205E5F /* Pods-bleedApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bleedApp/Pods-bleedApp.debug.xcconfig"; sourceTree = "<group>"; };
+		64293A0FE7B1AB8CD62DC521 /* Pods_bleedAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleedAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EA34A2324331C1177FB905E /* Pods_bleedAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleedAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9817ADFD80637F2753D736B9 /* Pods-bleedAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bleedAppTests/Pods-bleedAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2F0A3D9D138D9CAD05D94B /* Pods_bleedApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bleedApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7864C4046CA81BDE37E9AD /* Pods-bleedAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bleedAppUITests/Pods-bleedAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B88B08EA400144671CC02F /* Pods-bleedAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bleedAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bleedAppUITests/Pods-bleedAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FD6C1C8D8787E47517704FC /* Pods_bleedApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106A672A081745C3AFAE0B33 /* Pods_bleedAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +95,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687301E3BAAC5156DBAF8555 /* Pods_bleedAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42E337E17457BB9D64017859 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF2F0A3D9D138D9CAD05D94B /* Pods_bleedApp.framework */,
+				64293A0FE7B1AB8CD62DC521 /* Pods_bleedAppTests.framework */,
+				6EA34A2324331C1177FB905E /* Pods_bleedAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		449CB0551DE0F9F100B55044 = {
 			isa = PBXGroup;
 			children = (
+				449CB0A01DE122A300B55044 /* GoogleService-Info.plist */,
 				449CB0601DE0F9F100B55044 /* bleedApp */,
 				449CB0751DE0F9F200B55044 /* bleedAppTests */,
 				449CB0801DE0F9F200B55044 /* bleedAppUITests */,
 				449CB05F1DE0F9F100B55044 /* Products */,
+				C23FE8B0037CCB1916C57222 /* Pods */,
+				42E337E17457BB9D64017859 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +144,11 @@
 				449CB0681DE0F9F100B55044 /* Assets.xcassets */,
 				449CB06A1DE0F9F100B55044 /* LaunchScreen.storyboard */,
 				449CB06D1DE0F9F100B55044 /* Info.plist */,
+				449CB0961DE1165C00B55044 /* googleAuth.m */,
+				449CB0931DE1165B00B55044 /* bleedApp-Bridging-Header.h */,
+				449CB0941DE1165B00B55044 /* bleedAppTests-Bridging-Header.h */,
+				449CB0951DE1165B00B55044 /* bleedAppUITests-Bridging-Header.h */,
+				449CB0A41DE14B1700B55044 /* SecondScreen.swift */,
 			);
 			path = bleedApp;
 			sourceTree = "<group>";
@@ -125,6 +171,19 @@
 			path = bleedAppUITests;
 			sourceTree = "<group>";
 		};
+		C23FE8B0037CCB1916C57222 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A858CB26403899336205E5F /* Pods-bleedApp.debug.xcconfig */,
+				1B23DD9523FC69CCA5D9EAB1 /* Pods-bleedApp.release.xcconfig */,
+				9817ADFD80637F2753D736B9 /* Pods-bleedAppTests.debug.xcconfig */,
+				13FD078531837500E8C3CED6 /* Pods-bleedAppTests.release.xcconfig */,
+				EA7864C4046CA81BDE37E9AD /* Pods-bleedAppUITests.debug.xcconfig */,
+				F6B88B08EA400144671CC02F /* Pods-bleedAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 449CB0861DE0F9F200B55044 /* Build configuration list for PBXNativeTarget "bleedApp" */;
 			buildPhases = (
+				CB0D7DA58AF076D67B581E6E /* [CP] Check Pods Manifest.lock */,
 				449CB05A1DE0F9F100B55044 /* Sources */,
 				449CB05B1DE0F9F100B55044 /* Frameworks */,
 				449CB05C1DE0F9F100B55044 /* Resources */,
+				D90D299103282818448A6786 /* [CP] Embed Pods Frameworks */,
+				64F430FFF7A99F629E13C801 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 449CB0891DE0F9F200B55044 /* Build configuration list for PBXNativeTarget "bleedAppTests" */;
 			buildPhases = (
+				DC1D5C234C7ECDBB32AC7B32 /* [CP] Check Pods Manifest.lock */,
 				449CB06E1DE0F9F200B55044 /* Sources */,
 				449CB06F1DE0F9F200B55044 /* Frameworks */,
 				449CB0701DE0F9F200B55044 /* Resources */,
+				2FD914FF40469F944B7FE3C0 /* [CP] Embed Pods Frameworks */,
+				A6AF3F6D5B0613113DC7CF64 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 449CB08C1DE0F9F200B55044 /* Build configuration list for PBXNativeTarget "bleedAppUITests" */;
 			buildPhases = (
+				EB5626F2699068B831D84B16 /* [CP] Check Pods Manifest.lock */,
 				449CB0791DE0F9F200B55044 /* Sources */,
 				449CB07A1DE0F9F200B55044 /* Frameworks */,
 				449CB07B1DE0F9F200B55044 /* Resources */,
+				CB194BCDD50DA35A339894EC /* [CP] Embed Pods Frameworks */,
+				A07B777817B9F743EA79E79E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,17 +262,20 @@
 					449CB05D1DE0F9F100B55044 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2WXU3W6GS3;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 					449CB0711DE0F9F200B55044 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2WXU3W6GS3;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 449CB05D1DE0F9F100B55044;
 					};
 					449CB07C1DE0F9F200B55044 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 2WXU3W6GS3;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 449CB05D1DE0F9F100B55044;
 					};
@@ -236,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				449CB06C1DE0F9F100B55044 /* LaunchScreen.storyboard in Resources */,
+				449CB0A11DE122A300B55044 /* GoogleService-Info.plist in Resources */,
 				449CB0691DE0F9F100B55044 /* Assets.xcassets in Resources */,
 				449CB0671DE0F9F100B55044 /* Main.storyboard in Resources */,
 			);
@@ -245,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449CB0A21DE122A300B55044 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +325,149 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449CB0A31DE122A300B55044 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FD914FF40469F944B7FE3C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedAppTests/Pods-bleedAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F430FFF7A99F629E13C801 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedApp/Pods-bleedApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A07B777817B9F743EA79E79E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedAppUITests/Pods-bleedAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6AF3F6D5B0613113DC7CF64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedAppTests/Pods-bleedAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0D7DA58AF076D67B581E6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CB194BCDD50DA35A339894EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedAppUITests/Pods-bleedAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D90D299103282818448A6786 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bleedApp/Pods-bleedApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1D5C234C7ECDBB32AC7B32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB5626F2699068B831D84B16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		449CB05A1DE0F9F100B55044 /* Sources */ = {
@@ -263,7 +475,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				449CB0641DE0F9F100B55044 /* ViewController.swift in Sources */,
+				449CB0A51DE14B1700B55044 /* SecondScreen.swift in Sources */,
 				449CB0621DE0F9F100B55044 /* AppDelegate.swift in Sources */,
+				449CB0971DE1165C00B55044 /* googleAuth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +485,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449CB0981DE1165C00B55044 /* googleAuth.m in Sources */,
 				449CB0771DE0F9F200B55044 /* bleedAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +494,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449CB0991DE1165C00B55044 /* googleAuth.m in Sources */,
 				449CB0821DE0F9F200B55044 /* bleedAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,40 +629,51 @@
 		};
 		449CB0871DE0F9F200B55044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A858CB26403899336205E5F /* Pods-bleedApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		449CB0881DE0F9F200B55044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B23DD9523FC69CCA5D9EAB1 /* Pods-bleedApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedApp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		449CB08A1DE0F9F200B55044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9817ADFD80637F2753D736B9 /* Pods-bleedAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedAppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleedApp.app/bleedApp";
 			};
@@ -454,14 +681,17 @@
 		};
 		449CB08B1DE0F9F200B55044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FD078531837500E8C3CED6 /* Pods-bleedAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedAppTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bleedApp.app/bleedApp";
 			};
@@ -469,13 +699,17 @@
 		};
 		449CB08D1DE0F9F200B55044 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA7864C4046CA81BDE37E9AD /* Pods-bleedAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedAppUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bleedApp;
 			};
@@ -483,13 +717,16 @@
 		};
 		449CB08E1DE0F9F200B55044 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6B88B08EA400144671CC02F /* Pods-bleedAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 2WXU3W6GS3;
 				INFOPLIST_FILE = bleedAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = peterostiguy.bleedAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "bleedApp/bleedAppUITests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bleedApp;
 			};
@@ -514,6 +751,7 @@
 				449CB0881DE0F9F200B55044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449CB0891DE0F9F200B55044 /* Build configuration list for PBXNativeTarget "bleedAppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +760,7 @@
 				449CB08B1DE0F9F200B55044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		449CB08C1DE0F9F200B55044 /* Build configuration list for PBXNativeTarget "bleedAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +769,7 @@
 				449CB08E1DE0F9F200B55044 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

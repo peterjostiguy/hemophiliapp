@@ -1,0 +1,6 @@
+framework module Pods_bleedApp {
+  umbrella header "Pods-bleedApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
